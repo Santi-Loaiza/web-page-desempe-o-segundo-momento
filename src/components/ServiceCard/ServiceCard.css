@@ -1,0 +1,54 @@
+.service-card{
+    background-color: rgba(33, 21, 0, 0.774);
+    color: white;
+    border-radius: 10px;
+    max-width: 300px;
+}
+.service-card figure{
+    max-width: 100%;
+}
+.service-card figure img{
+    width: 100%;
+    border-radius: 10px ;
+}
+.text-service-card-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.text-service-card-container .title-name{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+.text-service-card-container .date{
+    font-size: 0.95rem;
+    color: #e7e7e7;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    font-family: Tahoma
+}
+.text-service-card-container .place{
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+.text-service-card-container .distances-title{
+    margin-top: 6px;
+    font-size: 1.05rem;
+    font-weight: medium;
+}
+.text-service-card-container .distances{
+    width: 80%;
+    font-size: 1.2rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.text-service-card-container .price{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    font-family: Tahoma;
+}

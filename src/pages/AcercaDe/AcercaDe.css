@@ -1,0 +1,52 @@
+.background-title-quienes-somos{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://mcmeventos.com/cdn/shop/files/LAB_6983.jpg?v=1719286483&width=1100');
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0px 250px 120px rgba(0, 0, 0, 0.854);
+}
+.main-title-quienes-somos{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.main-container-contacto .container-main-info{
+    display: flex;
+    color: white;
+    padding: 65px 75px;
+    gap: 55px;
+}
+.main-container-contacto .container-second-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 60px 70px;
+    gap: 50px;
+}
+.container-logo-acerca-de{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin: 10px;
+}
+.container-logo-acerca-de img{
+    width: 100%;
+    height: 100%;
+}
+.main-container-contacto .container-last-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(225, 126, 6);
+    padding: 60px;
+    font-size: 1.15rem;
+    text-align: center;
+    font-weight: bold;
+}
